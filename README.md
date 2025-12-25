@@ -124,19 +124,28 @@ Aplikasi ini menggunakan **Supabase** sebagai backend. Berikut adalah struktur t
 
 # 📂 Struktur Project
 
-lib/
-├── models/
-├── providers/
-├── screens/
-│ ├── admin/
-│ └── user/
-├── services/
-└── main.dart
+### lib/
+
+### ├── models/
+
+### ├── providers/
+
+### ├── screens/
+
+### │ ├── admin/
+
+### │ └── user/
+
+### ├── services/
+
+### └── main.dart
 
 <hr>
 
 # 👤 Author
 
-NIM : A11.2023.14922
-Nama : Richard Christoper Subianto
-Matakuliah : PPB - A11.4702
+### NIM : A11.2023.14922
+
+### Nama : Richard Christoper Subianto
+
+### Matakuliah : PPB - A11.4702
