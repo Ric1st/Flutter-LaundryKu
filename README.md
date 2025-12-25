@@ -48,7 +48,7 @@ Photo Screen
 
 ### 📁 Screenshot disimpan pada folder:
 
-/Screenshots
+/screenshots
 
 <hr>
 
