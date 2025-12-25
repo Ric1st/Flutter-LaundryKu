@@ -142,10 +142,33 @@ Aplikasi ini menggunakan **Supabase** sebagai backend. Berikut adalah struktur t
 
 <hr>
 
+## 🔌 API Documentation (Supabase Services)
+
+Aplikasi berinteraksi dengan Supabase menggunakan service class berikut:
+
+### Customer API (`customer_api.dart`)
+
+| Fungsi                 | Deskripsi                                               |
+| :--------------------- | :------------------------------------------------------ |
+| `login(name, phone)`   | Validasi user berdasarkan nama dan nomor telepon.       |
+| `isPhoneExists(phone)` | Mengecek apakah nomor sudah terdaftar sebelum register. |
+| `registerCustomer()`   | Menambahkan data customer baru ke tabel `customers`.    |
+| `update(customer)`     | Memperbarui profil customer yang sudah ada.             |
+
+### Order API (`order_api.dart`)
+
+| Fungsi                    | Deskripsi                                                                           |
+| :------------------------ | :---------------------------------------------------------------------------------- |
+| `getOrdersByCustomer(id)` | Mengambil semua riwayat laundry milik satu customer.                                |
+| `Order.status (Logic)`    | Otomatis berubah jadi 'Selesai' jika data pembayaran ditemukan di tabel `payments`. |
+
+<hr>
+
 # 👤 Author
 
-### NIM : A11.2023.14922
-
-### Nama : Richard Christoper Subianto
-
-### Matakuliah : PPB - A11.4702
+| Detail          | Informasi                            |
+| :-------------- | :----------------------------------- |
+| **Nama**        | Richard Christoper Subianto          |
+| **NIM**         | A11.2023.14922                       |
+| **Mata Kuliah** | Pemrograman Perangkat Bergerak (PPB) |
+| **Kelas**       | A11.4702                             |
