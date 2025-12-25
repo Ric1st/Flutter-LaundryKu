@@ -10,7 +10,18 @@ LaundryKu adalah aplikasi manajemen laundry berbasis Flutter yang digunakan untu
 
 2. Admin: menambahkan order, memperbarui status laundry, mengunggah foto laundry, dan mencatat pembayaran.
 
-Backend aplikasi menggunakan Supabase sebagai database.
+3. Backend aplikasi menggunakan Supabase sebagai database.
+
+# 📖 Alur Sistem LaundryKu
+
+Aplikasi ini dirancang untuk mendigitalisasi proses laundry konvensional menjadi lebih transparan. Berikut adalah skenario penggunaannya:
+
+1. **Registrasi Mandiri:** Pelanggan mengunduh aplikasi dan melakukan registrasi akun secara mandiri dari rumah.
+2. **Drop-off di Outlet:** Pelanggan datang ke outlet LaundryKu terdekat untuk menyerahkan pakaian yang akan dicuci.
+3. **Pencatatan Admin:** Admin menerima pakaian, lalu mencatat pesanan baru (berat, jenis layanan, dan harga) melalui aplikasi menggunakan akun admin.
+4. **Monitoring Real-time:** Pelanggan dapat pulang dan memantau setiap tahapan proses (sedang dicuci/siap diambil) secara langsung melalui smartphone mereka.
+5. **Pembayaran Digital:** Setelah laundry siap, pelanggan melakukan pembayaran melalui aplikasi/cash.
+6. **Konfirmasi & Selesai:** Admin mengonfirmasi pembayaran yang masuk, mengunggah foto bukti laundry selesai, dan pesanan dianggap tuntas.
 
 <hr>
 
@@ -68,21 +79,26 @@ Backend aplikasi menggunakan Supabase sebagai database.
 
 <hr>
 
-# ▶️ Cara Menjalankan Aplikasi
+# ▶️ Alur Penggunaan Aplikasi (User Guide)
 
-1. Clone Repository
-   git clone https://github.com/Ric1st/Flutter-LaundryKu.git
-   cd Flutter-LaundryKu
+### 👤 Peran: User (Customer)
 
-2. Install Dependency
-   flutter pub get
+1. **Registrasi:** Buka aplikasi, pilih daftar, lalu masukkan Nama, No. Telp, dan Alamat.
+2. **Login:** Masuk menggunakan Nama dan No. Telp yang sudah didaftarkan.
+3. **Dashboard:** User diarahkan ke `user_screen`. Jika belum ada pesanan, akan muncul pesan "Belum ada cucian".
+4. **Cek Status:** Jika ada pesanan, akan muncul kartu status laundry.
+5. **Detail Order:** Klik kartu pesanan untuk melihat rincian lengkap laundry.
+6. **Pembayaran:** Di halaman detail, User dapat melakukan konfirmasi pembayaran.
 
-3. Jalankan Aplikasi
-   flutter run
-   (disarankan menggunakan emulator/mobile phone)
+### 🔑 Peran: Admin
+
+1. **Login Khusus:** Masuk menggunakan Nama: `admin` dan No. Telp: `123`.
+2. **Kelola Pesanan:** Admin memiliki akses untuk menambahkan pesanan baru ke sistem.
+3. **Update Status:** Admin dapat mengubah status laundry secara berkala (contoh: dari _Process_ ke _Ready_).
+4. **Bukti Foto:** Jika laundry selesai, Admin mengunggah foto sebagai bukti pengerjaan.
+5. **Penyelesaian:** Admin melakukan verifikasi pembayaran untuk menutup/menyelesaikan pesanan.
 
 <hr>
-
 ## 🗄️ Database Schema (Supabase)
 
 Aplikasi ini menggunakan **Supabase** sebagai backend. Berikut adalah struktur tabel yang digunakan:
