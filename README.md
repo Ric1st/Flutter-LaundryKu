@@ -31,33 +31,17 @@ Aplikasi ini dirancang untuk mendigitalisasi proses laundry konvensional menjadi
 | :-------------------------------------------- | :----------------------------------------------- | :-------------------------------------------------- |
 | <img src="Screenshots/Login.jpg" width="200"> | <img src="Screenshots/Register.jpg" width="200"> | <img src="Screenshots/User_screen.jpg" width="200"> |
 
-### Admin Home
+| Admin Home                                           | Detail Order User                                          | Detail Order Admin                                          |
+| :--------------------------------------------------- | :--------------------------------------------------------- | :---------------------------------------------------------- |
+| <img src="Screenshots/Admin_screen.jpg" width="200"> | <img src="Screenshots/Detail_screen_user.jpg" width="200"> | <img src="Screenshots/Detail_screen_admin.jpg" width="200"> |
 
-<img src="Screenshots/Admin_screen.jpg" width="200">
+| Detail Order Completed                                          | Profile Screen User                                         | Profile Screen Admin                                         |
+| :-------------------------------------------------------------- | :---------------------------------------------------------- | :----------------------------------------------------------- |
+| <img src="Screenshots/Detail_screen_completed.jpg" width="200"> | <img src="Screenshots/Profile_user_screen.jpg" width="200"> | <img src="Screenshots/Profile_admin_screen.jpg" width="200"> |
 
-### Detail Order User
-
-<img src="Screenshots/Detail_screen_user.jpg" width="200">
-
-### Detail Order Admin
-
-<img src="Screenshots/Detail_screen_admin.jpg" width="200">
-
-### Detail Order Completed
-
-<img src="Screenshots/Detail_screen_completed.jpg" width="200">
-
-### Profile Screen User
-
-<img src="Screenshots/Profile_user_screen.jpg" width="200">
-
-### Profile Screen Admin
-
-<img src="Screenshots/Profile_admin_screen.jpg" width="200">
-
-### Photo Screen
-
-<img src="Screenshots/Take_photo_screen.jpg" width="200">
+| Photo Screen                                              | Report Keuangan                                         |
+| :-------------------------------------------------------- | :------------------------------------------------------ |
+| <img src="Screenshots/Take_photo_screen.jpg" width="200"> | <img src="Screenshots/Report_keuangan.jpg" width="200"> |
 
 ### 📁 Screenshot disimpan pada folder:
 
