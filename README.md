@@ -16,34 +16,44 @@ Backend aplikasi menggunakan Supabase sebagai database.
 
 # 🖼️ Screenshot Demo Aplikasi
 
-Login
+## Login
+
 <img src="Screenshots/Login.jpg" width="200">
 
-Register
+### Register
+
 <img src="Screenshots/Register.jpg" width="200">
 
-User Home
+### User Home
+
 <img src="Screenshots/User_screen.jpg" width="200">
 
-Admin Home
+### Admin Home
+
 <img src="Screenshots/Admin_screen.jpg" width="200">
 
-Detail Order User
+### Detail Order User
+
 <img src="Screenshots/Detail_screen_user.jpg" width="200">
 
-Detail Order Admin
+### Detail Order Admin
+
 <img src="Screenshots/Detail_screen_admin.jpg" width="200">
 
-Detail Order Completed
+### Detail Order Completed
+
 <img src="Screenshots/Detail_screen_completed.jpg" width="200">
 
-Profile Screen User
+### Profile Screen User
+
 <img src="Screenshots/Profile_user_screen.jpg" width="200">
 
-Profile Screen Admin
+### Profile Screen Admin
+
 <img src="Screenshots/Profile_admin_screen.jpg" width="200">
 
-Photo Screen
+### Photo Screen
+
 <img src="Screenshots/Take_photo_screen.jpg" width="200">
 
 ### 📁 Screenshot disimpan pada folder:
