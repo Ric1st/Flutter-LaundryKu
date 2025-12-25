@@ -64,7 +64,7 @@ Backend aplikasi menggunakan Supabase sebagai database.
 
 # 📱 Link APK / AAB (Testing)
 
-### 🔗 Download APK:
+### 🔗 Download APK: https://drive.google.com/file/d/126WHxGF4XeHYTWN6uspw_iU1XLXN2ptX/view?usp=sharing
 
 <hr>
 
