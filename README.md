@@ -17,38 +17,38 @@ Backend aplikasi menggunakan Supabase sebagai database.
 # 🖼️ Screenshot Demo Aplikasi
 
 Login
-<img src="screenshots/Login.jpg" width="200">
+<img src="Screenshots/Login.jpg" width="200">
 
 Register
-<img src="screenshots/Register.jpg" width="200">
+<img src="Screenshots/Register.jpg" width="200">
 
 User Home
-<img src="screenshots/User_screen.jpg" width="200">
+<img src="Screenshots/User_screen.jpg" width="200">
 
 Admin Home
-<img src="screenshots/Admin_screen.jpg" width="200">
+<img src="Screenshots/Admin_screen.jpg" width="200">
 
 Detail Order User
-<img src="screenshots/Detail_screen_user.jpg" width="200">
+<img src="Screenshots/Detail_screen_user.jpg" width="200">
 
 Detail Order Admin
-<img src="screenshots/Detail_screen_admin.jpg" width="200">
+<img src="Screenshots/Detail_screen_admin.jpg" width="200">
 
 Detail Order Completed
-<img src="screenshots/Detail_screen_completed.jpg" width="200">
+<img src="Screenshots/Detail_screen_completed.jpg" width="200">
 
 Profile Screen User
-<img src="screenshots/Profile_user_screen.jpg" width="200">
+<img src="Screenshots/Profile_user_screen.jpg" width="200">
 
 Profile Screen Admin
-<img src="screenshots/Profile_admin_screen.jpg" width="200">
+<img src="Screenshots/Profile_admin_screen.jpg" width="200">
 
 Photo Screen
-<img src="screenshots/Take_photo_screen.jpg" width="200">
+<img src="Screenshots/Take_photo_screen.jpg" width="200">
 
 ### 📁 Screenshot disimpan pada folder:
 
-/screenshots
+/Screenshots
 
 <hr>
 
