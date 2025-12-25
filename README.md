@@ -51,7 +51,7 @@ Aplikasi ini dirancang untuk mendigitalisasi proses laundry konvensional menjadi
 
 # 📱 Link APK / AAB (Testing)
 
-### 🔗 Download APK: https://drive.google.com/file/d/126WHxGF4XeHYTWN6uspw_iU1XLXN2ptX/view?usp=sharing
+### 🔗 Download APK: https://drive.google.com/drive/folders/1UFBlGDpJuPvZNKofV8r4P0jrhtMbdu_E?usp=sharing
 
 <hr>
 
