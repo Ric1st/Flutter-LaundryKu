@@ -59,8 +59,4 @@ class CustomerApi {
         .update(customer.toJson())
         .eq('id', customer.id);
   }
-
-  Future<void> delete(String id) async {
-    await _client.from('customers').delete().eq('id', id);
-  }
 }

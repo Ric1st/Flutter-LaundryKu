@@ -5,6 +5,7 @@ import '../../providers/order_provider.dart';
 import 'add_order_screen.dart';
 import 'admin_order_detail_screen.dart';
 import 'admin_profile_screen.dart';
+import 'finance_report_screen.dart';
 
 class AdminHomeScreen extends StatefulWidget {
   const AdminHomeScreen({super.key});
@@ -83,6 +84,13 @@ class _AdminHomeScreenState extends State<AdminHomeScreen> {
                   context,
                   MaterialPageRoute(builder: (_) => const AdminProfileScreen()),
                 );
+              } else if (value == 'report') {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const AdminFinanceDashboard(),
+                  ),
+                );
               } else if (value == 'logout') {
                 loginProvider.logout(context);
               }
@@ -90,6 +98,7 @@ class _AdminHomeScreenState extends State<AdminHomeScreen> {
             itemBuilder:
                 (_) => const [
                   PopupMenuItem(value: 'profile', child: Text('Profil')),
+                  PopupMenuItem(value: 'report', child: Text('Keuangan')),
                   PopupMenuItem(value: 'logout', child: Text('Logout')),
                 ],
           ),

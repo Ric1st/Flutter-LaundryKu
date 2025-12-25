@@ -8,7 +8,7 @@ LaundryKu adalah aplikasi manajemen laundry berbasis Flutter yang digunakan untu
 
 1. User (Customer): melihat status Laundry, dan melakukan pembayaran bila laundry sudah siap.
 
-2. Admin: menambahkan order, memperbarui status laundry, mengunggah foto laundry, dan mencatat pembayaran.
+2. Admin: menambahkan order, memperbarui status laundry, mengunggah foto laundry, mencatat pembayaran, dan melihat laporan keuangan.
 
 3. Backend aplikasi menggunakan Supabase sebagai database.
 
@@ -27,17 +27,9 @@ Aplikasi ini dirancang untuk mendigitalisasi proses laundry konvensional menjadi
 
 # 🖼️ Screenshot Demo Aplikasi
 
-## Login
-
-<img src="Screenshots/Login.jpg" width="200">
-
-### Register
-
-<img src="Screenshots/Register.jpg" width="200">
-
-### User Home
-
-<img src="Screenshots/User_screen.jpg" width="200">
+| Login                                         | Register                                         | User Home                                           |
+| :-------------------------------------------- | :----------------------------------------------- | :-------------------------------------------------- |
+| <img src="Screenshots/Login.jpg" width="200"> | <img src="Screenshots/Register.jpg" width="200"> | <img src="Screenshots/User_screen.jpg" width="200"> |
 
 ### Admin Home
 
@@ -177,6 +169,13 @@ Aplikasi berinteraksi dengan Supabase menggunakan service class berikut:
 | :------------------------ | :---------------------------------------------------------------------------------- |
 | `getOrdersByCustomer(id)` | Mengambil semua riwayat laundry milik satu customer.                                |
 | `Order.status (Logic)`    | Otomatis berubah jadi 'Selesai' jika data pembayaran ditemukan di tabel `payments`. |
+
+### Payment API (`payments_api.dart`)
+
+| Fungsi            | Deskripsi                                                             |
+| :---------------- | :-------------------------------------------------------------------- |
+| `createPayment()` | Menyimpan data pembayaran ke tabel `payments`.                        |
+| `fetchFinance()`  | Mengambil data keuangan untuk dashboard admin (harian/bulanan/tahun). |
 
 <hr>
 
