@@ -55,7 +55,7 @@ Aplikasi ini dirancang untuk mendigitalisasi proses laundry konvensional menjadi
 
 <hr>
 
-# ▶️ Alur Penggunaan Aplikasi (User Guide)
+# ▶️ Alur Menjalankan Aplikasi (User Guide)
 
 ### 👤 Peran: User (Customer)
 
