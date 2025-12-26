@@ -59,9 +59,8 @@ class _AdminFinanceDashboardState extends State<AdminFinanceDashboard> {
         border: OutlineInputBorder(),
       ),
       items: const [
-        DropdownMenuItem(value: 'weekly', child: Text('Harian')),
-        DropdownMenuItem(value: 'monthly', child: Text('Bulanan')),
-        DropdownMenuItem(value: 'yearly', child: Text('Tahunan')),
+        DropdownMenuItem(value: 'harian', child: Text('Harian')),
+        DropdownMenuItem(value: 'bulanan', child: Text('Bulanan')),
       ],
       onChanged: (value) => provider.changeFilter(value!),
     );
@@ -115,11 +114,7 @@ class _AdminFinanceDashboardState extends State<AdminFinanceDashboard> {
         ),
         const SizedBox(height: 4),
         Text(
-          provider.filter == 'weekly'
-              ? '7 Hari Terakhir'
-              : provider.filter == 'monthly'
-              ? 'Bulan Ini'
-              : 'Tahun Ini',
+          provider.filter == 'harian' ? 'Harian' : 'Bulanan',
           style: const TextStyle(color: Colors.grey),
         ),
         const SizedBox(height: 16),

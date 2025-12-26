@@ -196,35 +196,34 @@ class _AdminDetailOrderScreenState extends State<AdminDetailOrderScreen> {
 
           const SizedBox(height: 24),
 
-          if (order.status == 'processing' && !hasPhoto) ...[
-            Card(
-              color: Colors.orange.shade50,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Row(
-                  children: [
-                    Icon(Icons.warning, color: Colors.orange.shade700),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Text(
-                        'Upload foto laundry diperlukan sebelum menyelesaikan order!',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.orange.shade900,
+          if (order.status == 'ready') ...[
+            if (!hasPhoto) ...[
+              Card(
+                color: Colors.orange.shade50,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Icon(Icons.warning, color: Colors.orange.shade700),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Upload foto laundry diperlukan sebelum menyelesaikan order!',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.orange.shade900,
+                          ),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
-            const SizedBox(height: 16),
-          ],
-
-          if (order.status != 'completed') ...[
+              const SizedBox(height: 16),
+            ],
             const Text(
               'Pilih Metode Pembayaran (untuk melengkapi pembayaran):',
             ),

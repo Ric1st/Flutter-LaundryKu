@@ -7,9 +7,7 @@ class PaymentsApi {
     final now = DateTime.now().toUtc();
     late DateTime startDate;
 
-    if (filter == 'weekly') {
-      startDate = now.subtract(const Duration(days: 7));
-    } else if (filter == 'monthly') {
+    if (filter == 'harian') {
       startDate = DateTime.utc(now.year, now.month, 1);
     } else {
       startDate = DateTime.utc(now.year, 1, 1);
@@ -48,9 +46,8 @@ class PaymentsApi {
         final date = DateTime.parse(item['paid_date']).toLocal();
 
         String key;
-        if (filter == 'weekly') {
-          key = '${date.day}/${date.month}';
-        } else if (filter == 'monthly') {
+
+        if (filter == 'harian') {
           key = '${date.day}';
         } else {
           key = '${date.month}';

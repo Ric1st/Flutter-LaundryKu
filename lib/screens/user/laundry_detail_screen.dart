@@ -125,7 +125,7 @@ class _LaundryDetailScreenState extends State<LaundryDetailScreen> {
 
           if (orders.status == 'selesai') ...[
             _completedPhotoSection(orders),
-          ] else if (!orders.isPaid) ...[
+          ] else if (!orders.isPaid && orders.status == 'ready') ...[
             _paymentSection(orders),
           ],
         ],

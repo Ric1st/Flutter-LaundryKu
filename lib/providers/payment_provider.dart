@@ -7,7 +7,7 @@ class PaymentProvider extends ChangeNotifier {
 
   bool isLoading = false;
 
-  String filter = 'weekly';
+  String filter = 'harian';
   int totalOrders = 0;
   int completedOrders = 0;
   int totalIncome = 0;
